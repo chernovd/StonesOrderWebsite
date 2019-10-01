@@ -1,0 +1,109 @@
+* {
+    color: #414142;
+}
+
+/* define the with off the main wrapper and make responsible adjustments */
+.main_wrapper {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (max-width: 1139px) {
+    .main_wrapper {
+        padding: 0 15px;
+    }
+}
+
+/* Define headline color */
+h5 {
+    color: #ffffff;
+}
+
+h1.main-headline {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6A747D;
+}
+
+/* define button color */
+a, button, .btn-link, .btn-link:hover {
+    color: #414142;
+}
+
+/* define the header */
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #6A747D;
+    overflow: hidden;
+}
+
+.header_inside {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header_menu {
+    color: white;
+    text-decoration: none;
+    font-size: 1.22em;
+}
+
+/* define the style size and color of the logo section */
+.logo_wrapper {
+    width: 200px;
+    background: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+/*  */
+.basket_wrapper {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 35px;
+    float: right;
+}
+
+#cart {
+    float: right;
+
+}
+
+/* Pushy off canvas menu */
+.list-white li {
+    color: #ffffff;
+}
+
+button.menu-btn {
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.off-canves-menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.pushy-content h1.main-headline {
+    color: #ffffff;
+    border-bottom: 1px solid;
+    margin-left: 25px;
+}
+
+/*main page*/
+#main_box {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+}
+
+#left_box, #top_box {
+    BORDER: 1px solid #6A747D;
+    padding: 15px;
+}

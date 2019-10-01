@@ -1,0 +1,163 @@
+#box{
+    margin: 0 auto;
+    width: 1200px;
+}
+#img{
+    height: 100px;
+    width: 100px;   
+}
+
+
+#card {
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: arial;
+    border-radius: 25px;
+    width: 260px;
+    float:left;
+    height: 260px;
+}
+
+#card_submit {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin:18px 64.5px;
+    border-radius: 25px;
+}
+
+#card_img {
+    width: 100%;
+    height: 80%;
+
+}
+
+.card_price {
+    color: grey;
+    font-size: 22px;
+}
+
+
+/*#add{
+    outline: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 35%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    position: center;
+}
+
+#add:hover {
+    opacity: 0.7;
+}*/
+
+
+/*Collapse accordion start*/
+
+.panel-title{
+    top: calc(50% - 10px);
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 22px;
+    left: 20px;
+    font-weight: bolder;
+    
+}
+
+.panel-heading {
+    position: relative;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #panel_soup{
+    background-image: url("https://food-images.files.bbci.co.uk/food/recipes/goodvegetablesoup_73412_16x9.jpg");
+  }
+
+  #panel_tostie{
+    background-image: url("https://metro.co.uk/wp-content/uploads/2019/01/gettyimages-155352902-688d.jpg?quality=90&strip=all");
+  }
+
+  #panel_drinks{
+    background-image: url("https://www.modernhoney.com/wp-content/uploads/2016/03/DSC_0018ed.jpg");
+  }
+
+  .panel-heading[data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e258"; /* "arrow" icon */
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 22px;
+    right: 20px;
+    top: calc(50% - 10px);
+  
+    /* rotate "arrow" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+    transform:         rotate(-90deg);
+  }
+  .panel-heading[data-toggle="collapse"].collapsed:after {
+    /* rotate "arrow" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform:    rotate(90deg);
+    -ms-transform:     rotate(90deg);
+    -o-transform:      rotate(90deg);
+    transform:         rotate(90deg);
+  }
+
+  .panel-body{
+      background-color: rgba(218, 218, 218, 0.534);
+  }
+
+/*Collapse accordion end*/
+
+h2
+{
+    padding: 25px;
+    color:white;
+}
+p
+{
+    padding:25px;
+    color:white;
+}
+a.button
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    /*border-radius: 5px;*/
+   
+    background-color:#6a747d;
+    width:100%;
+    text-decoration: none;
+    color: initial;
+    height: 150px;
+    margin-top: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+#button_order
+{
+    margin-top: 35px;
+}
+/*end of the main page disagne*/

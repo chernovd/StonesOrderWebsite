@@ -1,0 +1,275 @@
+div#accordion {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.order_overview--item, .order_history--item {
+    min-width: 300px;
+    padding: 15px;
+    background-color: #6A747D;
+    margin-right: 20px;
+}
+
+.order_history--item {
+    margin-right: 0px;
+}
+
+.order_overview--header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Shows payment icon in the top right corner */
+.payment-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+}
+
+/* defines payment icon size */
+.payment{
+    font-size: 25px;
+    color: #78AB46;
+}
+
+.payment-fail{
+    font-size: 25px;
+    color: #bb0000;
+}
+
+.order_overview--content {
+    height: 200px;
+}
+
+.btn-white {
+    background-color: #ffffff;
+}
+
+.order_overview--buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_overview--buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.order_overview--timer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modal-open .modal {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.modal-dialog {
+    max-width: 650px !important;
+    width: 100% !important;
+}
+
+.modal-content {
+    background-color: #6A747D !important;
+    min-height: 450px;
+}
+
+.modal-box-wrapper {
+    display: grid;
+    grid-template-columns: 55% calc(45% - 15px);
+    column-gap: 15px;
+}
+
+.modal-box {
+    background-color: #ffffff;
+    padding: 15px;
+    height: 300px;
+}
+
+.modal-headline {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+.history-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+@media (max-width: 990px) {
+    .history-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+}
+
+@media (max-width: 599px) {
+    .history-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+}
+
+.error-message {
+    background-color: #A63232;
+    height: 250px;
+}
+
+.error-message-header {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.error-message-header h2 {
+    color: #ffffff;
+}
+
+.error-message-content {
+    text-align: center;
+}
+
+.error-message-content p {
+    color: #ffffff;
+}
+
+.error-message-image {
+    width: 100px;
+    margin: 20px auto 0px;
+}
+
+h1.main-headline {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6A747D;
+}
+
+.product_item-wrapper {
+    display: grid;
+    grid-template-columns: 10% 60% 15% 15%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    background-color: #6A747D;
+}
+
+.product_item-name {
+    padding-left: 15px;
+}
+
+.product_item-name h2 {
+    line-height: 80px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sub-headline {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.product_item-img {
+    height: 80px;
+    overflow: hidden;
+    width: auto;
+}
+
+.product_item-img img {
+    height: 80px;
+    width: auto;
+}
+
+.product_item-wrapper {
+    display: grid;
+    grid-template-columns: 10% 60% 15% 15%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    background-color: #6A747D;
+}
+
+.form_wrapper {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 10%;
+    grid-row-gap: 40px;
+}
+
+.form_input {
+    float: left;
+    width: 100%;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+.main_label {
+    padding: 5px 10px;
+    background-color: #6A747D;
+    color: #ffffff;
+    width: 160px;
+}
+
+.btn.btn-gray {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #6A747D;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn.btn-outline {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #6A747D;
+    color: #6A747D;
+}
+
+.image-block {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.button_wrapper-half {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+}
+
+/*Settings start*/
+
+#box{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    border-radius: 5px;
+    border: 0.6px solid rgb(194, 194, 194);
+}
+
+
+
+/*Settings end*/
